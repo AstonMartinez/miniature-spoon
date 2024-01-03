@@ -1,0 +1,42 @@
+#modal-backdrop {
+  backdrop-filter: blur(3px);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #000;
+  opacity: 0.5;
+}
+
+.modal-content-container {
+  border: 1px solid purple;
+  position: fixed;
+  top: 25%;
+  left: 30%;
+  width: 420px;
+  height: 400px;
+  background-color: white;
+  z-index: 5000;
+  backdrop-filter: blur(10);
+  border-radius: 20px;
+}
+
+.close-button-holder {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 15px;
+  margin-top: 15px;
+}
+
+.modal-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.required-span {
+  color: red;
+}
