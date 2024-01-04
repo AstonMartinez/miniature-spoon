@@ -8,6 +8,7 @@ import Navigation from "./components/Navigation";
 import Dashboard from "./components/Dashboard";
 import LoggedInFooter from "./components/Footers/LoggedIn";
 import "./index.css";
+import AllBadges from "./components/Badges/AllBadges";
 
 function App() {
   const dispatch = useDispatch();
@@ -29,6 +30,9 @@ function App() {
           </Route>
           <Route path="/dashboard">
             <Dashboard />
+          </Route>
+          <Route path="/badges">
+            <AllBadges />
           </Route>
         </Switch>
       )}
