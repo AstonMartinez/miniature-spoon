@@ -5,6 +5,7 @@ import TableRow from "@mui/material/TableRow";
 import { createNewBook, fetchUserBooks } from "../../store/books";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import "./Forms.css";
 
 const inputStyle1 = {
   width: "20px",
@@ -183,10 +184,14 @@ const AddBook = ({ userId, onEnter }) => {
           </select>
         </TableCell>
         <TableCell align="center">
-          <button onClick={handleSubmit}>Submit</button>
+          <button id="submit-button" onClick={handleSubmit}>
+            Submit
+          </button>
         </TableCell>
         <TableCell align="center">
-          <button onClick={handleReset}>Cancel</button>
+          <button id="cancel-button" onClick={handleReset}>
+            Cancel
+          </button>
         </TableCell>
       </TableRow>
     </>

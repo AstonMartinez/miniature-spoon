@@ -1,0 +1,44 @@
+#delete-book-button {
+  border: 3px solid #ff91a4;
+  background-color: #fc5130;
+  height: 35px;
+  width: 65px;
+  border-radius: 20px;
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+}
+
+#delete-book-button:hover {
+  border: 3px solid #fc5130;
+  background-color: #ff91a4;
+}
+
+#edit-book-button {
+  background-color: #30bced;
+  border: 3px solid #15f4ee;
+  height: 35px;
+  width: 65px;
+  border-radius: 20px;
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+}
+
+#edit-book-button:hover {
+  background-color: #15f4ee;
+  border: 3px solid #30bced;
+}
+
+#dashboard-wrapper {
+  background-color: #fff5ee;
+  padding: 10px 50px 80px 50px;
+}
+
+#user-books-holder {
+  color: #e97451;
+}
+
+#dash-header {
+  color: #e97451;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
