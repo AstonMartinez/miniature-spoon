@@ -1,0 +1,46 @@
+.footer-1-inner {
+  background-image: url(https://i.ibb.co/dB6bdLv/biggin-Photo-Room2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+  bottom: 0;
+  z-index: 8000;
+  display: flex;
+  position: relative;
+  /* background-color: #fff5ee; */
+}
+
+.footer-style-1 {
+  background: linear-gradient(#fff5ee, #fbaed2, #ed7a9b);
+  position: relative;
+  z-index: 4000;
+  height: 400px;
+  width: 100%;
+  bottom: 0;
+  display: flex;
+  align-items: flex-end;
+}
+
+#footer-logo {
+  height: 150px;
+  position: absolute;
+  z-index: 10000;
+}
+
+.one-third-footer {
+  width: 33vw;
+  display: flex;
+}
+
+#footer-1-left {
+}
+
+#footer-1-mid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#footer-1-right {
+}

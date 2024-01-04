@@ -6,6 +6,8 @@ import LoginFormPage from "./components/LoginFormPage";
 import { authenticate } from "./store/session";
 import Navigation from "./components/Navigation";
 import Dashboard from "./components/Dashboard";
+import LoggedInFooter from "./components/Footers/LoggedIn";
+import "./index.css";
 
 function App() {
   const dispatch = useDispatch();
@@ -30,6 +32,7 @@ function App() {
           </Route>
         </Switch>
       )}
+      <LoggedInFooter />
     </>
   );
 }

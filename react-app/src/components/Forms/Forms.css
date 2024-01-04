@@ -1,0 +1,29 @@
+#submit-button {
+  width: 65px;
+  height: 35px;
+  background-color: #0bda51;
+  border: 3px solid #3fff00;
+  border-radius: 20px;
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+}
+
+#submit-button:hover {
+  background-color: #3fff00;
+  border: 3px solid #0bda51;
+}
+
+#cancel-button {
+  width: 65px;
+  height: 35px;
+  background-color: #ff4f00;
+  border: 3px solid #ff9966;
+  border-radius: 20px;
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+}
+
+#cancel-button:hover {
+  background-color: #ff9966;
+  border: 3px solid #ff4f00;
+}

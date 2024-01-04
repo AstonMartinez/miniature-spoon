@@ -1,7 +1,35 @@
 .profile-dropdown {
   position: absolute;
+  right: 25px;
+  border: 1px solid black;
+  background-color: white;
 }
 
 .hidden {
   display: none;
+}
+
+#nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 15px;
+  background-color: #fff0f5;
+  border-bottom: 1px solid #303036;
+  /* width: 100vw; */
+}
+
+#nav-logo {
+  height: 75px;
+}
+
+#nav-home-link {
+  color: black;
+  text-decoration: none;
+}
+
+#logo-name-holder {
+  display: flex;
+  align-items: center;
+  font-size: 22px;
 }
